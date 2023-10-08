@@ -1,4 +1,4 @@
-                                 #Tripitaca
+                                <h3> #Tripitaca </h3>
 
 Following Implementation of the Requires Tasks, Here is a Detailed SetUp:
 
@@ -8,13 +8,13 @@ Following Implementation of the Requires Tasks, Here is a Detailed SetUp:
 
 Navigate To Your Directory. Clone The Repository:
 
-#git clone https://github.com/Jim97M/tripitaca.git
+                    #git clone https://github.com/Jim97M/tripitaca.git
 
 2.  Navigate to Folder tripitaca:
 
 Install Node Modules:
 
-#npm install --legacy-peer-deps
+                    #npm install --legacy-peer-deps
 
 3.  Configure Database Connection:
 
@@ -25,6 +25,7 @@ Follow MongoDb Documentation to Create a Database in Mongo Atlas.
 Retrieve the URL and Connect in file: app.module.ts: In VsCode you can type: ctrl+p then in the popup input type app.module.ts.
 
 Replace code Snippet:
+<span style="color: blue;">
 {
 @Module({
 imports: [
@@ -35,6 +36,7 @@ controllers: [AppController, UserController],
 providers: [AppService, UserService, JwtService, TokenRevocationService],
 })
 }
+</span>
 
 In The: MongooseModule.forRoot('mongodb+srv://Yobi:yobi123@atlascluster.6ucwujg.mongodb.net/?retryWrites=true&w=majority')
 
@@ -48,4 +50,4 @@ Make Sure you have enabled connection from all addresses to connect to MongoDb, 
 
 The application runs on port 3001:
 
-Its url will be: http://localhost:3001
+                Its url will be: http://localhost:3001
