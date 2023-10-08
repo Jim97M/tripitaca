@@ -1,22 +1,22 @@
-                                <h3> #Tripitaca </h3>
+                                ## Tripitaca
 
 Following Implementation of the Requires Tasks, Here is a Detailed SetUp:
 
          BackEnd SetUp:
 
-1. Clone The Repository to Your LocalSetUp:
+1. ## Clone The Repository to Your LocalSetUp:
 
 Navigate To Your Directory. Clone The Repository:
 
                     #git clone https://github.com/Jim97M/tripitaca.git
 
-2.  Navigate to Folder tripitaca:
+2.  ## Navigate to Folder tripitaca:
 
 Install Node Modules:
 
                     #npm install --legacy-peer-deps
 
-3.  Configure Database Connection:
+3. ## Configure Database Connection:
 
 I have connected to my Mongo Atlas Url, which will still run. But you can Configure MongoDB Url From Your End:
 
@@ -44,7 +44,7 @@ Add your url In the Brackets.
 
 Make Sure you have enabled connection from all addresses to connect to MongoDb, I have enabled it in my database.
 
-4. Run The Application:
+4. ## Run The Application:
 
    #npm start
 
